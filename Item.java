@@ -4,6 +4,7 @@ public class Item extends Something {
     }
     public void take(){
         System.out.println("You pick up the "+name);
+        
     }
 
 
