@@ -7,6 +7,10 @@ public class Something {
       description=d;
       
     }
+    public String getName(){
+      return name;
+    }
+    
   public void inspect(){
     System.out.println(name);
     System.out.println(description);
