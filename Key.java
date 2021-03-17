@@ -13,4 +13,7 @@ public class Key extends Item {
             return false;
         }
     }
+    public String getLock(){
+        return lock;
+    }
 }
