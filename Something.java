@@ -16,6 +16,13 @@ public class Something {
     found=true;
     System.out.println(description);
   }
+  public String getLock(){
+    return "false";
+  }
+  public boolean unlock(){
+    return false;
+  }
+   
   public boolean check(){
     return found;
   }
